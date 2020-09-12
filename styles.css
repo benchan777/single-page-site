@@ -12,6 +12,10 @@ nav, main > section {
     overflow: auto;
 }
 
+main > footer {
+    min-height: 100vh;
+}
+
 #page-navigation {
     display: flex;
     justify-content: space-between;
@@ -33,8 +37,6 @@ nav ul a:link {
     background-image: url("images/banner-forest.jpg");
     background-size: cover;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     font-size: 4em;
     color: white;
     text-shadow: 4px 4px black;
@@ -75,14 +77,33 @@ blockquote {
 #career > div {
     background-color: rgba(135, 206, 250, 0.6);
     display: flex;
+    flex-direction: column;
     margin: 10%;
 }
 
-#published-books {
+#career > div > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#publications {
     background-color: grey;
 }
 
-#published-books > ul {
+#publications > ul {
     list-style: none;
     display: flex;
+    justify-content: space-around;
+}
+
+#publications > ul > li:nth-child(1) {
+    background-color: indianred;
+}
+
+#publications > ul > li:nth-child(2) {
+    background-color: indianred;
+}
+
+#publications > ul > li:nth-child(3) {
+    background-color: indianred;
 }
