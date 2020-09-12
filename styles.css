@@ -33,8 +33,8 @@ nav ul a:link {
     background-image: url("images/banner-forest.jpg");
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     font-size: 4em;
     color: white;
     text-shadow: 4px 4px black;
@@ -57,17 +57,14 @@ blockquote {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 7% 0 0 0;
     width: 95%;
+    align-content: center;
 
 }
 
 #early-life > div > div:nth-child(1) {
     padding: 4em;
-}
-
-#early-life > div > div:nth-child(2) {
-
+    align-content: center;
 }
 
 #career {
@@ -76,7 +73,16 @@ blockquote {
 }
 
 #career > div {
+    background-color: rgba(135, 206, 250, 0.6);
     display: flex;
-    flex-direction: row;
-    
+    margin: 10%;
+}
+
+#published-books {
+    background-color: grey;
+}
+
+#published-books > ul {
+    list-style: none;
+    display: flex;
 }
