@@ -4,42 +4,51 @@ body {
     line-height: 2;
 }
 
-main > section {
+main > section, footer {
     min-height: 100vh;
 }
 
-nav, main > section {
+nav, main > section, footer {
     overflow: auto;
-}
-
-main > footer {
-    min-height: 100vh;
 }
 
 #page-navigation {
     display: flex;
     justify-content: space-between;
-    background-color: blanchedalmond;
+    background-color: #7395AE;
     padding: 0em;
 }
 
 #page-navigation > ul {
     list-style: none;
     display: flex;
-    
 }
 
 nav ul a:link {
     text-decoration: none;
 }
 
+nav ul a {
+    padding: 1em;
+    color: black;
+}
+
 #banner {
     background-image: url("images/banner-forest.jpg");
     background-size: cover;
     display: flex;
-    font-size: 4em;
+    font-size: 3em;
     color: white;
     text-shadow: 4px 4px black;
+}
+
+#banner > header {
+    padding-top: 250px;
+}
+
+#banner > blockquote {
+    padding-top: 850px;
+    padding-left: 550px;
 }
 
 blockquote {
@@ -47,7 +56,7 @@ blockquote {
 }
 
 #early-life {
-    background-color: gray;
+    background-color: #b1a296;
 }
 
 #early-life h2 {
@@ -60,8 +69,7 @@ blockquote {
     justify-content: space-around;
     align-items: center;
     width: 95%;
-    align-content: center;
-
+    padding-top: 12%;
 }
 
 #early-life > div > div:nth-child(1) {
@@ -75,10 +83,13 @@ blockquote {
 }
 
 #career > div {
-    background-color: rgba(135, 206, 250, 0.6);
+    background-color: rgba(135, 206, 250, 0.8);
     display: flex;
     flex-direction: column;
     margin: 10%;
+    border-radius: 29px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #career > div > h2 {
@@ -90,6 +101,10 @@ blockquote {
     background-color: grey;
 }
 
+#publications > h2 {
+    text-align: center;
+}
+
 #publications > ul {
     list-style: none;
     display: flex;
@@ -98,12 +113,19 @@ blockquote {
 
 #publications > ul > li:nth-child(1) {
     background-color: indianred;
+    width: 350px;
 }
 
 #publications > ul > li:nth-child(2) {
     background-color: indianred;
+    width: 350px;
 }
 
 #publications > ul > li:nth-child(3) {
     background-color: indianred;
+    width: 350px;
+}
+
+#contact {
+    background-color: #379683;
 }
