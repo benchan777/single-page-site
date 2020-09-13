@@ -143,6 +143,17 @@ blockquote {
     text-align: center;
 }
 
+#publications li {
+    display: flex;
+    flex-direction: column;
+}
+
+#publications a {
+    display: flex;
+    align-self: flex-end;
+    margin: 0 2% 2% 0;
+}
+
 #publications > ul > li:nth-child(1) {
     background-color: #DADBEF;
     border-radius: 10px;
