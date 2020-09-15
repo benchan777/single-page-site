@@ -24,6 +24,7 @@ header {
 h2 {
    color: #6B3E04;
    font-family: Handlee;
+   font-size: 3em;
 }
 
 #page-navigation {
@@ -86,10 +87,6 @@ blockquote {
     background-color: #b1a296;
 }
 
-#early-life h2 {
-    font-size: 2em;
-}
-
 #early-life > div {
     display: flex;
     flex-direction: row;
@@ -127,6 +124,7 @@ blockquote {
 
 #publications {
     background-color: #8183BB;
+    /* background-color: #b1a296; */
 }
 
 #publications > h2 {
@@ -146,6 +144,7 @@ blockquote {
 #publications li {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 #publications a {
