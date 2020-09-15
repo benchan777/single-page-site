@@ -21,8 +21,13 @@ header {
     font-family: Handlee;
 }
 
+#page-navigation h1 {
+    color: #6B3E04;
+    font-size: 1.5em;
+}
+
 h2 {
-   color: #6B3E04;
+   color: #B8833E;
    font-family: Handlee;
    font-size: 3em;
 }
